@@ -1,4 +1,6 @@
-More details coming soon, until then checkout the example:
+More details coming soon, until then checkout the example.
+
+The following assumes you have npm -g install'd the modules being linked:
 
 npm link express dnode browserify dnode-smoothiecharts
 cp ./node_modules/dnode-smoothiecharts/examples/web-express/* ./

@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="/dnode.js" type="text/javascript"></script>
+<script src="/dnode-smoothiecharts.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.onload = function () {
+      var smoothie = require('dnode-smoothiecharts');
+
+      var dnode = DNode();
+      dnode.use(new smoothie({el: 'charts'}).middleware());
+      dnode.connect();
+    };
+</script>
+</head>
+<body>
+  <div id="charts"></div>
+</body>
+</html>

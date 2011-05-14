@@ -1,0 +1,31 @@
+{
+  "author": "Chris Partridge <chrisp@dynamicmethods.com.au> (http://www.dynamicmethods.com.au)",
+  "name": "dnode-smoothiecharts",
+  "description": "Smoothie Charts middleware for DNode",
+  "version": "0.0.1",
+  "homepage": "http://github.com/dynmeth/dnode-smoothiecharts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dynmeth/dnode-smoothiecharts.git"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "dnode",
+    "smoothiecharts",
+    "charting"
+  ],
+  "directories" : {
+    "examples" : "./examples"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "async" : ">=0.1.9"
+  },
+	"browserify" : {
+		"name" : "dnode-smoothiecharts",
+    "main" : "./browser/index.js",
+    "base" : "./browser"
+  }
+}

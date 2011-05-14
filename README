@@ -1,5 +1,5 @@
 More details coming soon, until then checkout the example:
 
 npm link express dnode browserify dnode-smoothiecharts
-cp ./dnode-smoothiecharts/examples/web-express/* ./
+cp ./node_modules/dnode-smoothiecharts/examples/web-express/* ./
 node app.js

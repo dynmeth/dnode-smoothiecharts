@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dynmeth/dnode-smoothiecharts.png)](http://travis-ci.org/dynmeth/dnode-smoothiecharts)
 More details coming soon, until then checkout the example.
 
 The following assumes you have npm -g install'd the modules being linked:
